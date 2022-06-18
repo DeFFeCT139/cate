@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Trebuchet;
+    src: url(../font/trebuchetms.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    background-image: url(../img/Group\ 1.jpg);
+    background-size: cover;
+    font-family: Trebuchet;
+    font-weight: 400;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #272829;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3E3F41;
+    border-radius: 10px;
+    border: 2px solid #272829;
+}
+.main-content::-webkit-scrollbar { width: 0; }
+
+.main-content{ -ms-overflow-style: none; }
+
+.main-content{ overflow: -moz-scrollbars-none; }
+.home{
+    margin-top: calc(50vh - 293px);
+    align-items: center;
+    text-align: center;
+}
+.home-text{
+    font-size: 36px;
+    font-family: 'Exo 2', sans-serif !important;
+}
+.blue-clor{
+    background-color: #1698D9;
+}
+.info-button{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-top:calc(100% - 58px);
+    text-align: center;
+    color: #ffffff;
+}
+.namber-ves{
+    font-size: 42px;
+    padding-top: 5px;
+}
+.text-ves{
+    font-size: 21px;
+    margin-top: -7px;
+}
+.rad{
+    background-color: #D91667;
+}
+.rad:hover{
+    background-color: #E52E7A;
+}
+.blue-clor:hover{
+    background-color: #2EA8E6;
+}
+.paketCat-inner-back:hover .rad{
+    background-color: #E52E7A;
+}
+.paketCat-inner-back:hover .blue-clor{
+    background-color: #2EA8E6;
+}
+.paketCat-inner-back{
+    text-align: left !important;
+    cursor: pointer;
+    width: 324px;
+    height: 484px;
+    padding: 4px 0px 0px 4px;
+    clip-path: 
+        polygon(
+        0% 10%,
+        15% 0%,
+        100% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        0% 100%, 
+        0 100%     
+    );
+    border-radius: 12px;
+}
+.paketCat-pod{
+    width: 328px;
+    height: 488px;
+    background-color: #ffffff;
+    clip-path: 
+        polygon(
+        0% 10%,
+        15% 0%,
+        100% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        0% 100%, 
+        0 100%     
+    );
+    border-radius: 12px;
+}
+.op{
+    opacity: 0.3;
+}
+.geo-product{
+    font-size: 16px;
+    color: #666666;
+}
+.bonus-text{
+    color: #666666;
+}
+.type-product{
+    font-size: 24px;
+    font-weight: 700;
+}
+.bonus{
+    margin-top: 13px;
+}
+.donus-text-strong{
+    font-weight: 700;
+}
+a{
+    cursor: pointer;
+    color: #1698D9;
+    border-bottom: 1px dashed #1698D9;
+}
+.name-product{
+    margin-top: 5px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.paketCat-inner{
+    color: black !important;
+    width: 320px;
+    height: 480px;
+    background-image: url(../img/Object.jpg);
+    background-size: cover;
+    clip-path: 
+        polygon(
+        0% 10%,
+        15% 0%,
+        100% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        0% 100%, 
+        0 100%     
+    );
+    border-radius: 12px;
+}
+.info-paketCat-inner{
+padding: 10px 16px 16px 48px;
+}
+.text-paketCat{
+    width: 328px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.disebled{
+    color: #FFFF66;
+    display: none;
+}
+.text1{
+    display: block;
+}
+.text2{
+    display: none;
+}
+.bonus{
+    width: 150px;
+    height: 57px;
+}
+.paketCatList{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1224px;
+    margin: auto;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
